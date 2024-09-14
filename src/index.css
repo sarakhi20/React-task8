@@ -1,0 +1,23 @@
+.logo1 {
+  width: 100px; /* You can adjust the width as per your requirement */
+  height: 100px; /* You can adjust the height as per your requirement */
+  margin: 20px; /* You can adjust the margin as per your requirement */
+  border-radius: 50%; /* This will make the logo circular */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* This will add a shadow to the logo */
+}
+
+.logo2{
+  width: 50%; /* Width of the image */
+  height: 50%; /* Height of the image */
+  object-fit: cover; /* Cover the entire area */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  margin: 20px; /* Margin around the image */
+}
+
+.logo2:hover {
+  transform: scale(1.1); /* Zoom in on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Stronger shadow on hover */
+}
+
+
